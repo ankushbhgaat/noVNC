@@ -7,15 +7,15 @@ here = os.path.abspath(os.path.dirname(__file__))
 with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
     long_description = "\n" + fh.read()
 
-VERSION = '1.0.2'
+VERSION = '1.0.5'
 DESCRIPTION = "noVNC is a Python-based server that integrates noVNC and websockify to provide a web-based VNC client, enabling remote desktop access via a web browser."
 
 # Setting up
 setup(
     name="novnc",
     version=VERSION,
-    author="Im Geek (Ankush Bhagat)",
-    author_email="<imegeek@gmail.com>",
+    author="Ankush Bhagat",
+    author_email="<ankushbhgaat@gmail.com>",
     description=DESCRIPTION,
     long_description_content_type="text/markdown",
     long_description=long_description,
